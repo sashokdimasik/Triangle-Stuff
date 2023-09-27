@@ -1,11 +1,11 @@
-/**********************************************
- * Author:       Platonov A.A.                *
- * Group:        ПИ-231                       *
- * Variant:      14                           *
- * Date:         25.09.2023                   *
- * Project name: Triangle' Stuff              *
- * OnlineGDB: https://onlinegdb.com/B1VdRVgbZ *
- **********************************************/
+/***********************************************
+ * Author:       Platonov A.A.                 *
+ * Group:        ПИ-231                        *
+ * Variant:      14                            *
+ * Date:         25.09.2023                    *
+ * Project name: Triangle' Stuff               *
+ * OnlineGDB: https://onlinegdb.com/DrL4NIeUv3 *
+ ***********************************************/
 
 #include <iostream>
 #include <iomanip>
@@ -16,8 +16,12 @@ using namespace std;
 int main() {
   double sideA, angleA, angleB, sideB, sideC, bisectorA, medianA, heightA;
   
-  cout << "Enter side A, angle A and angle B: ";
-  cin >> sideA >> angleA >> angleB;
+  cout << "Enter side A";
+  cin >> sideA;
+  cout << "Enter angle A";
+  cin >> angleA;
+  cout << "Enter angle B";
+  cin >> angleB;
   
   angleA *= M_PI / 180;
   angleB *= M_PI / 180;
